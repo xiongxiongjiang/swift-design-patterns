@@ -29,6 +29,9 @@
 		0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07612906E01C00599D52 /* FactoryProducer.swift */; };
 		0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07632906E1C700599D52 /* HobbyFactory.swift */; };
 		0A1E07662906E2CA00599D52 /* HairFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07652906E2CA00599D52 /* HairFactory.swift */; };
+		0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C22907E3B700275B91 /* SingletonController.swift */; };
+		0AF627C52907E61400275B91 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C42907E61400275B91 /* Singleton.swift */; };
+		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		0A1E07612906E01C00599D52 /* FactoryProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
 		0A1E07632906E1C700599D52 /* HobbyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyFactory.swift; sourceTree = "<group>"; };
 		0A1E07652906E2CA00599D52 /* HairFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairFactory.swift; sourceTree = "<group>"; };
+		0AF627C22907E3B700275B91 /* SingletonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonController.swift; sourceTree = "<group>"; };
+		0AF627C42907E61400275B91 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +163,10 @@
 		0A1E0748290583BD00599D52 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				0A1E07542906D24100599D52 /* AbstractFactory */,
 				0A1E0749290583DC00599D52 /* Factory */,
+				0A1E07542906D24100599D52 /* AbstractFactory */,
+				0AF627C12907E38600275B91 /* Singleton */,
+				0AF627C62907F62300275B91 /* Builder */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -188,6 +196,23 @@
 				0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		0AF627C12907E38600275B91 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				0AF627C22907E3B700275B91 /* SingletonController.swift */,
+				0AF627C42907E61400275B91 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		0AF627C62907F62300275B91 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				0AF627C72907F64000275B91 /* BuilderController.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +347,7 @@
 			files = (
 				0A1E07512905873900599D52 /* FactoryController.swift in Sources */,
 				0A1E074F290585A100599D52 /* ShapeFactory.swift in Sources */,
+				0AF627C52907E61400275B91 /* Singleton.swift in Sources */,
 				0A1E075A2906D9FB00599D52 /* ConcreteHobby.swift in Sources */,
 				0A1E071D29057FB400599D52 /* ViewController.swift in Sources */,
 				0A1E075E2906DCC500599D52 /* ConcreteHair.swift in Sources */,
@@ -329,12 +355,14 @@
 				0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */,
 				0A1E07602906DD8300599D52 /* AbstractFactory.swift in Sources */,
 				0A1E0753290587DD00599D52 /* Controllers.swift in Sources */,
+				0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */,
 				0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */,
 				0A1E07662906E2CA00599D52 /* HairFactory.swift in Sources */,
 				0A1E071929057FB400599D52 /* AppDelegate.swift in Sources */,
 				0A1E075C2906DC3D00599D52 /* Hair.swift in Sources */,
 				0A1E07582906D68F00599D52 /* Hobby.swift in Sources */,
 				0A1E074D290584EB00599D52 /* Implements.swift in Sources */,
+				0AF627C82907F64000275B91 /* BuilderController.swift in Sources */,
 				0A1E071B29057FB400599D52 /* SceneDelegate.swift in Sources */,
 				0A1E074B2905841200599D52 /* Shape.swift in Sources */,
 			);
