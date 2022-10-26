@@ -37,6 +37,7 @@
 		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
 		0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C929090CF700275B91 /* MealBuilder.swift */; };
 		0AF627CE290936B300275B91 /* PrototypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627CD290936B300275B91 /* PrototypeController.swift */; };
+		0AF627D02909437900275B91 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627CF2909437900275B91 /* Prototype.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
 		0AF627C929090CF700275B91 /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
 		0AF627CD290936B300275B91 /* PrototypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeController.swift; sourceTree = "<group>"; };
+		0AF627CF2909437900275B91 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 		0AF627CC2909366D00275B91 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				0AF627CF2909437900275B91 /* Prototype.swift */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */,
 				0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */,
 				0A1E07662906E2CA00599D52 /* HairFactory.swift in Sources */,
+				0AF627D02909437900275B91 /* Prototype.swift in Sources */,
 				0A1E071929057FB400599D52 /* AppDelegate.swift in Sources */,
 				0A1E075C2906DC3D00599D52 /* Hair.swift in Sources */,
 				0A1E07582906D68F00599D52 /* Hobby.swift in Sources */,

@@ -13,6 +13,11 @@ class PrototypeController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .white
+        
+        let bob = Prototype(name: "Bob")
+        let amy = bob.clone()
+        amy.name = "Amy"
+        print(bob.name, amy.name)
     }
     
 
