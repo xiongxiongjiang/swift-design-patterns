@@ -20,3 +20,24 @@ class ColdDrink: Item {
         return 0.0
     }
 }
+
+class Coke: ColdDrink {
+    override func price() -> Float {
+        return 30.0
+    }
+    
+    override func name() -> String {
+        return "Coke"
+    }
+}
+
+class Pepsi: ColdDrink {
+    override func price() -> Float {
+        return 35.0
+    }
+    
+    override func name() -> String {
+        return "Pepsi"
+    }
+}
+

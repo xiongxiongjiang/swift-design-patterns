@@ -37,6 +37,7 @@
 		0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C22907E3B700275B91 /* SingletonController.swift */; };
 		0AF627C52907E61400275B91 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C42907E61400275B91 /* Singleton.swift */; };
 		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
+		0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C929090CF700275B91 /* MealBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		0AF627C22907E3B700275B91 /* SingletonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonController.swift; sourceTree = "<group>"; };
 		0AF627C42907E61400275B91 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
+		0AF627C929090CF700275B91 /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,6 +228,7 @@
 				0ACE28FA290827540077E9E5 /* Burger.swift */,
 				0ACE2902290835BA0077E9E5 /* ColdDrink.swift */,
 				0ACE29042908364B0077E9E5 /* Meal.swift */,
+				0AF627C929090CF700275B91 /* MealBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */,
 				0AF627C52907E61400275B91 /* Singleton.swift in Sources */,
 				0ACE29052908364B0077E9E5 /* Meal.swift in Sources */,
+				0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */,
 				0A1E075A2906D9FB00599D52 /* ConcreteHobby.swift in Sources */,
 				0A1E071D29057FB400599D52 /* ViewController.swift in Sources */,
 				0ACE28FD2908278B0077E9E5 /* Item.swift in Sources */,

@@ -24,9 +24,7 @@ class Meal {
     
     func showItem() {
         for item in list {
-            print("Item: \(item.name())")
-            print(", Packing: \(item.packing().pack())")
-            print(", Price: \(item.price())")
+            print("Item: \(item.name()), Packing: \(item.packing().pack()), Price: \(item.price())")
         }
     }
 }

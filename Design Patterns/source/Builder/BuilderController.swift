@@ -12,7 +12,19 @@ class BuilderController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .white
+        
+        let mealBuilder = MealBuilder()
+        
+        let vegMeal = mealBuilder.prepareVegMeal()
+        print("Veg Meal")
+        vegMeal.showItem()
+        print("Total cost: \(vegMeal.getCoat())")
+        
+        let nonVegMeal = mealBuilder.prepareNonVegMeal()
+        print("\n\nNon-Veg Meal")
+        nonVegMeal.showItem()
+        print("Total cost: \(nonVegMeal.getCoat())")
     }
     
 
