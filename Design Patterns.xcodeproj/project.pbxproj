@@ -29,6 +29,11 @@
 		0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07612906E01C00599D52 /* FactoryProducer.swift */; };
 		0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07632906E1C700599D52 /* HobbyFactory.swift */; };
 		0A1E07662906E2CA00599D52 /* HairFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07652906E2CA00599D52 /* HairFactory.swift */; };
+		0ACE28FB290827540077E9E5 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE28FA290827540077E9E5 /* Burger.swift */; };
+		0ACE28FD2908278B0077E9E5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE28FC2908278B0077E9E5 /* Item.swift */; };
+		0ACE28FF29082C4F0077E9E5 /* Packing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE28FE29082C4F0077E9E5 /* Packing.swift */; };
+		0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2902290835BA0077E9E5 /* ColdDrink.swift */; };
+		0ACE29052908364B0077E9E5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE29042908364B0077E9E5 /* Meal.swift */; };
 		0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C22907E3B700275B91 /* SingletonController.swift */; };
 		0AF627C52907E61400275B91 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C42907E61400275B91 /* Singleton.swift */; };
 		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
@@ -78,6 +83,11 @@
 		0A1E07612906E01C00599D52 /* FactoryProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
 		0A1E07632906E1C700599D52 /* HobbyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyFactory.swift; sourceTree = "<group>"; };
 		0A1E07652906E2CA00599D52 /* HairFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairFactory.swift; sourceTree = "<group>"; };
+		0ACE28FA290827540077E9E5 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		0ACE28FC2908278B0077E9E5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0ACE28FE29082C4F0077E9E5 /* Packing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packing.swift; sourceTree = "<group>"; };
+		0ACE2902290835BA0077E9E5 /* ColdDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdDrink.swift; sourceTree = "<group>"; };
+		0ACE29042908364B0077E9E5 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		0AF627C22907E3B700275B91 /* SingletonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonController.swift; sourceTree = "<group>"; };
 		0AF627C42907E61400275B91 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
@@ -211,6 +221,11 @@
 			isa = PBXGroup;
 			children = (
 				0AF627C72907F64000275B91 /* BuilderController.swift */,
+				0ACE28FC2908278B0077E9E5 /* Item.swift */,
+				0ACE28FE29082C4F0077E9E5 /* Packing.swift */,
+				0ACE28FA290827540077E9E5 /* Burger.swift */,
+				0ACE2902290835BA0077E9E5 /* ColdDrink.swift */,
+				0ACE29042908364B0077E9E5 /* Meal.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -345,11 +360,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACE28FB290827540077E9E5 /* Burger.swift in Sources */,
 				0A1E07512905873900599D52 /* FactoryController.swift in Sources */,
 				0A1E074F290585A100599D52 /* ShapeFactory.swift in Sources */,
+				0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */,
 				0AF627C52907E61400275B91 /* Singleton.swift in Sources */,
+				0ACE29052908364B0077E9E5 /* Meal.swift in Sources */,
 				0A1E075A2906D9FB00599D52 /* ConcreteHobby.swift in Sources */,
 				0A1E071D29057FB400599D52 /* ViewController.swift in Sources */,
+				0ACE28FD2908278B0077E9E5 /* Item.swift in Sources */,
+				0ACE28FF29082C4F0077E9E5 /* Packing.swift in Sources */,
 				0A1E075E2906DCC500599D52 /* ConcreteHair.swift in Sources */,
 				0A1E07562906D25B00599D52 /* AbstractFactoryController.swift in Sources */,
 				0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */,
