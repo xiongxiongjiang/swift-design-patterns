@@ -22,9 +22,7 @@
 		0A1E0753290587DD00599D52 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E0752290587DD00599D52 /* Controllers.swift */; };
 		0A1E07562906D25B00599D52 /* AbstractFactoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */; };
 		0A1E07582906D68F00599D52 /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07572906D68F00599D52 /* Hobby.swift */; };
-		0A1E075A2906D9FB00599D52 /* ConcreteHobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07592906D9FB00599D52 /* ConcreteHobby.swift */; };
 		0A1E075C2906DC3D00599D52 /* Hair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E075B2906DC3D00599D52 /* Hair.swift */; };
-		0A1E075E2906DCC500599D52 /* ConcreteHair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E075D2906DCC500599D52 /* ConcreteHair.swift */; };
 		0A1E07602906DD8300599D52 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E075F2906DD8300599D52 /* AbstractFactory.swift */; };
 		0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07612906E01C00599D52 /* FactoryProducer.swift */; };
 		0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1E07632906E1C700599D52 /* HobbyFactory.swift */; };
@@ -38,6 +36,7 @@
 		0AF627C52907E61400275B91 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C42907E61400275B91 /* Singleton.swift */; };
 		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
 		0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C929090CF700275B91 /* MealBuilder.swift */; };
+		0AF627CE290936B300275B91 /* PrototypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627CD290936B300275B91 /* PrototypeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,9 +76,7 @@
 		0A1E0752290587DD00599D52 /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
 		0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryController.swift; sourceTree = "<group>"; };
 		0A1E07572906D68F00599D52 /* Hobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
-		0A1E07592906D9FB00599D52 /* ConcreteHobby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteHobby.swift; sourceTree = "<group>"; };
 		0A1E075B2906DC3D00599D52 /* Hair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hair.swift; sourceTree = "<group>"; };
-		0A1E075D2906DCC500599D52 /* ConcreteHair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteHair.swift; sourceTree = "<group>"; };
 		0A1E075F2906DD8300599D52 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		0A1E07612906E01C00599D52 /* FactoryProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProducer.swift; sourceTree = "<group>"; };
 		0A1E07632906E1C700599D52 /* HobbyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyFactory.swift; sourceTree = "<group>"; };
@@ -93,6 +90,7 @@
 		0AF627C42907E61400275B91 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
 		0AF627C929090CF700275B91 /* MealBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealBuilder.swift; sourceTree = "<group>"; };
+		0AF627CD290936B300275B91 /* PrototypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +141,10 @@
 		0A1E071729057FB400599D52 /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				0A1E0748290583BD00599D52 /* source */,
+				0A1E0748290583BD00599D52 /* Core */,
+				0AF627CB290933A600275B91 /* Controllers */,
 				0A1E071829057FB400599D52 /* AppDelegate.swift */,
 				0A1E071A29057FB400599D52 /* SceneDelegate.swift */,
-				0A1E071C29057FB400599D52 /* ViewController.swift */,
-				0A1E0752290587DD00599D52 /* Controllers.swift */,
 				0A1E072129057FB600599D52 /* Assets.xcassets */,
 				0A1E072329057FB600599D52 /* LaunchScreen.storyboard */,
 				0A1E072629057FB600599D52 /* Info.plist */,
@@ -172,15 +169,16 @@
 			path = "Design PatternsUITests";
 			sourceTree = "<group>";
 		};
-		0A1E0748290583BD00599D52 /* source */ = {
+		0A1E0748290583BD00599D52 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				0A1E0749290583DC00599D52 /* Factory */,
 				0A1E07542906D24100599D52 /* AbstractFactory */,
 				0AF627C12907E38600275B91 /* Singleton */,
 				0AF627C62907F62300275B91 /* Builder */,
+				0AF627CC2909366D00275B91 /* Prototype */,
 			);
-			path = source;
+			path = Core;
 			sourceTree = "<group>";
 		};
 		0A1E0749290583DC00599D52 /* Factory */ = {
@@ -189,7 +187,6 @@
 				0A1E074A2905841200599D52 /* Shape.swift */,
 				0A1E074C290584EB00599D52 /* Implements.swift */,
 				0A1E074E290585A100599D52 /* ShapeFactory.swift */,
-				0A1E07502905873900599D52 /* FactoryController.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -198,14 +195,11 @@
 			isa = PBXGroup;
 			children = (
 				0A1E07572906D68F00599D52 /* Hobby.swift */,
-				0A1E07592906D9FB00599D52 /* ConcreteHobby.swift */,
 				0A1E075B2906DC3D00599D52 /* Hair.swift */,
-				0A1E075D2906DCC500599D52 /* ConcreteHair.swift */,
 				0A1E075F2906DD8300599D52 /* AbstractFactory.swift */,
 				0A1E07632906E1C700599D52 /* HobbyFactory.swift */,
 				0A1E07652906E2CA00599D52 /* HairFactory.swift */,
 				0A1E07612906E01C00599D52 /* FactoryProducer.swift */,
-				0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -213,7 +207,6 @@
 		0AF627C12907E38600275B91 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				0AF627C22907E3B700275B91 /* SingletonController.swift */,
 				0AF627C42907E61400275B91 /* Singleton.swift */,
 			);
 			path = Singleton;
@@ -222,7 +215,6 @@
 		0AF627C62907F62300275B91 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				0AF627C72907F64000275B91 /* BuilderController.swift */,
 				0ACE28FC2908278B0077E9E5 /* Item.swift */,
 				0ACE28FE29082C4F0077E9E5 /* Packing.swift */,
 				0ACE28FA290827540077E9E5 /* Burger.swift */,
@@ -231,6 +223,27 @@
 				0AF627C929090CF700275B91 /* MealBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		0AF627CB290933A600275B91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A1E0752290587DD00599D52 /* Controllers.swift */,
+				0A1E071C29057FB400599D52 /* ViewController.swift */,
+				0A1E07502905873900599D52 /* FactoryController.swift */,
+				0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */,
+				0AF627C22907E3B700275B91 /* SingletonController.swift */,
+				0AF627C72907F64000275B91 /* BuilderController.swift */,
+				0AF627CD290936B300275B91 /* PrototypeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0AF627CC2909366D00275B91 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,14 +380,13 @@
 				0A1E07512905873900599D52 /* FactoryController.swift in Sources */,
 				0A1E074F290585A100599D52 /* ShapeFactory.swift in Sources */,
 				0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */,
+				0AF627CE290936B300275B91 /* PrototypeController.swift in Sources */,
 				0AF627C52907E61400275B91 /* Singleton.swift in Sources */,
 				0ACE29052908364B0077E9E5 /* Meal.swift in Sources */,
 				0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */,
-				0A1E075A2906D9FB00599D52 /* ConcreteHobby.swift in Sources */,
 				0A1E071D29057FB400599D52 /* ViewController.swift in Sources */,
 				0ACE28FD2908278B0077E9E5 /* Item.swift in Sources */,
 				0ACE28FF29082C4F0077E9E5 /* Packing.swift in Sources */,
-				0A1E075E2906DCC500599D52 /* ConcreteHair.swift in Sources */,
 				0A1E07562906D25B00599D52 /* AbstractFactoryController.swift in Sources */,
 				0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */,
 				0A1E07602906DD8300599D52 /* AbstractFactory.swift in Sources */,

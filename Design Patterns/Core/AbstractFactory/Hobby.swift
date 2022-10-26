@@ -1,11 +1,15 @@
 //
-//  ConcreteHobby.swift
+//  Hobby.swift
 //  Design Patterns
 //
 //  Created by 徐荣 on 2022/10/24.
 //
 
 import Foundation
+
+protocol Hobby {
+    func play()
+}
 
 class Sing: Hobby {
     func play() {
@@ -24,4 +28,3 @@ class Rap: Hobby {
         print("Inside Rap play method")
     }
 }
-
