@@ -32,6 +32,13 @@
 		0ACE28FF29082C4F0077E9E5 /* Packing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE28FE29082C4F0077E9E5 /* Packing.swift */; };
 		0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2902290835BA0077E9E5 /* ColdDrink.swift */; };
 		0ACE29052908364B0077E9E5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE29042908364B0077E9E5 /* Meal.swift */; };
+		0ACE2908290981ED0077E9E5 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2907290981ED0077E9E5 /* MediaPlayer.swift */; };
+		0ACE290A290983030077E9E5 /* AdvancedMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2909290983030077E9E5 /* AdvancedMediaPlayer.swift */; };
+		0ACE290C290986040077E9E5 /* MediaAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE290B290986040077E9E5 /* MediaAdapter.swift */; };
+		0ACE290E290987D60077E9E5 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE290D290987D60077E9E5 /* AudioPlayer.swift */; };
+		0ACE29102909893A0077E9E5 /* AdapterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE290F2909893A0077E9E5 /* AdapterController.swift */; };
+		0ACE2912290ACA130077E9E5 /* VlcPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2911290ACA130077E9E5 /* VlcPlayer.swift */; };
+		0ACE2914290ACA310077E9E5 /* Mp4Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE2913290ACA310077E9E5 /* Mp4Player.swift */; };
 		0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C22907E3B700275B91 /* SingletonController.swift */; };
 		0AF627C52907E61400275B91 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C42907E61400275B91 /* Singleton.swift */; };
 		0AF627C82907F64000275B91 /* BuilderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF627C72907F64000275B91 /* BuilderController.swift */; };
@@ -87,6 +94,13 @@
 		0ACE28FE29082C4F0077E9E5 /* Packing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packing.swift; sourceTree = "<group>"; };
 		0ACE2902290835BA0077E9E5 /* ColdDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdDrink.swift; sourceTree = "<group>"; };
 		0ACE29042908364B0077E9E5 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		0ACE2907290981ED0077E9E5 /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		0ACE2909290983030077E9E5 /* AdvancedMediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMediaPlayer.swift; sourceTree = "<group>"; };
+		0ACE290B290986040077E9E5 /* MediaAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAdapter.swift; sourceTree = "<group>"; };
+		0ACE290D290987D60077E9E5 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		0ACE290F2909893A0077E9E5 /* AdapterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterController.swift; sourceTree = "<group>"; };
+		0ACE2911290ACA130077E9E5 /* VlcPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlcPlayer.swift; sourceTree = "<group>"; };
+		0ACE2913290ACA310077E9E5 /* Mp4Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mp4Player.swift; sourceTree = "<group>"; };
 		0AF627C22907E3B700275B91 /* SingletonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonController.swift; sourceTree = "<group>"; };
 		0AF627C42907E61400275B91 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		0AF627C72907F64000275B91 /* BuilderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderController.swift; sourceTree = "<group>"; };
@@ -179,6 +193,7 @@
 				0AF627C12907E38600275B91 /* Singleton */,
 				0AF627C62907F62300275B91 /* Builder */,
 				0AF627CC2909366D00275B91 /* Prototype */,
+				0ACE290629097C1E0077E9E5 /* Adapter */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -206,6 +221,19 @@
 			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
+		0ACE290629097C1E0077E9E5 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				0ACE2907290981ED0077E9E5 /* MediaPlayer.swift */,
+				0ACE2909290983030077E9E5 /* AdvancedMediaPlayer.swift */,
+				0ACE2911290ACA130077E9E5 /* VlcPlayer.swift */,
+				0ACE2913290ACA310077E9E5 /* Mp4Player.swift */,
+				0ACE290B290986040077E9E5 /* MediaAdapter.swift */,
+				0ACE290D290987D60077E9E5 /* AudioPlayer.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 		0AF627C12907E38600275B91 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,13 +258,14 @@
 		0AF627CB290933A600275B91 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0A1E0752290587DD00599D52 /* Controllers.swift */,
 				0A1E071C29057FB400599D52 /* ViewController.swift */,
+				0A1E0752290587DD00599D52 /* Controllers.swift */,
 				0A1E07502905873900599D52 /* FactoryController.swift */,
 				0A1E07552906D25B00599D52 /* AbstractFactoryController.swift */,
 				0AF627C22907E3B700275B91 /* SingletonController.swift */,
 				0AF627C72907F64000275B91 /* BuilderController.swift */,
 				0AF627CD290936B300275B91 /* PrototypeController.swift */,
+				0ACE290F2909893A0077E9E5 /* AdapterController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -380,28 +409,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ACE28FB290827540077E9E5 /* Burger.swift in Sources */,
+				0ACE29102909893A0077E9E5 /* AdapterController.swift in Sources */,
 				0A1E07512905873900599D52 /* FactoryController.swift in Sources */,
 				0A1E074F290585A100599D52 /* ShapeFactory.swift in Sources */,
 				0ACE2903290835BA0077E9E5 /* ColdDrink.swift in Sources */,
 				0AF627CE290936B300275B91 /* PrototypeController.swift in Sources */,
 				0AF627C52907E61400275B91 /* Singleton.swift in Sources */,
 				0ACE29052908364B0077E9E5 /* Meal.swift in Sources */,
+				0ACE290A290983030077E9E5 /* AdvancedMediaPlayer.swift in Sources */,
 				0AF627CA29090CF700275B91 /* MealBuilder.swift in Sources */,
 				0A1E071D29057FB400599D52 /* ViewController.swift in Sources */,
+				0ACE290C290986040077E9E5 /* MediaAdapter.swift in Sources */,
 				0ACE28FD2908278B0077E9E5 /* Item.swift in Sources */,
 				0ACE28FF29082C4F0077E9E5 /* Packing.swift in Sources */,
 				0A1E07562906D25B00599D52 /* AbstractFactoryController.swift in Sources */,
 				0A1E07622906E01C00599D52 /* FactoryProducer.swift in Sources */,
 				0A1E07602906DD8300599D52 /* AbstractFactory.swift in Sources */,
 				0A1E0753290587DD00599D52 /* Controllers.swift in Sources */,
+				0ACE290E290987D60077E9E5 /* AudioPlayer.swift in Sources */,
 				0AF627C32907E3B700275B91 /* SingletonController.swift in Sources */,
 				0A1E07642906E1C700599D52 /* HobbyFactory.swift in Sources */,
+				0ACE2908290981ED0077E9E5 /* MediaPlayer.swift in Sources */,
 				0A1E07662906E2CA00599D52 /* HairFactory.swift in Sources */,
 				0AF627D02909437900275B91 /* Prototype.swift in Sources */,
+				0ACE2914290ACA310077E9E5 /* Mp4Player.swift in Sources */,
 				0A1E071929057FB400599D52 /* AppDelegate.swift in Sources */,
 				0A1E075C2906DC3D00599D52 /* Hair.swift in Sources */,
 				0A1E07582906D68F00599D52 /* Hobby.swift in Sources */,
 				0A1E074D290584EB00599D52 /* Implements.swift in Sources */,
+				0ACE2912290ACA130077E9E5 /* VlcPlayer.swift in Sources */,
 				0AF627C82907F64000275B91 /* BuilderController.swift in Sources */,
 				0A1E071B29057FB400599D52 /* SceneDelegate.swift in Sources */,
 				0A1E074B2905841200599D52 /* Shape.swift in Sources */,

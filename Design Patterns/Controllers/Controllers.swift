@@ -23,5 +23,6 @@ let controllers: [ControllerType] = [
     ControllerType(name: "Abstract Factory", vc: AbstractFactoryController.self),
     ControllerType(name: "Singleton", vc: SingletonController.self),
     ControllerType(name: "Builder", vc: BuilderController.self),
-    ControllerType(name: "Prototype", vc: PrototypeController.self)
+    ControllerType(name: "Prototype", vc: PrototypeController.self),
+    ControllerType(name: "Adapter", vc: AdapterController.self),
 ]
