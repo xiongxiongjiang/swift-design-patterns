@@ -21,8 +21,8 @@ class HairFactory: AbstractFactory {
             return Black()
         } else if hair == "GREY" {
             return Grey()
-        } else if hair == "WHITE" {
-            return White()
+        } else if hair == "RED" {
+            return Red()
         }
         return nil
     }

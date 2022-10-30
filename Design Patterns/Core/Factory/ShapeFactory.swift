@@ -14,7 +14,7 @@ class ShapeFactory {
         }
         if shapeType == "RECTANGLE" {
             return Rectangle()
-        } else if shapeType == "Square" {
+        } else if shapeType == "SQUARE" {
             return Square()
         } else if shapeType == "CIRCLE" {
             return Circle()

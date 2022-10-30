@@ -23,8 +23,8 @@ class Grey: Hair {
     }
 }
 
-class White: Hair {
+class Red: Hair {
     func cut() {
-        print("Inside White cut method")
+        print("Inside Red cut method")
     }
 }
